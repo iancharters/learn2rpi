@@ -113,21 +113,7 @@ def reverseTurnRight():
 def main():
 	allStop()
 	forwardDrive()
-	sleep(5)
-	reverseDrive()
-	sleep(5)
-	spinLeft()
-	sleep(5)
-	SpinRight()
-	sleep(5)
-	forwardTurnLeft()
-	sleep(5)
-	forwardTurnRight()
-	sleep(5)
-	reverseTurnLeft()
-	sleep(5)
-	reverseTurnRight()
-	sleep(5)
+	sleep(30)
 	allStop()
  
  
