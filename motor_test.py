@@ -112,9 +112,13 @@ def reverseTurnRight():
  
 def main():
 	allStop()
-	forwardDrive()
-	sleep(30)
-	allStop()
+	loop()
+
+def loop():
+    forwardDrive()
+	sleep(0.1)
+    reverseDrive()
+    sleep(0.1)
  
  
 if __name__ == "__main__":
